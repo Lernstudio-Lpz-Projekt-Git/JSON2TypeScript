@@ -1,0 +1,175 @@
+@import 'var'
+
+.editieren
+    color: $black
+    background-color: $white
+    vertikal-align: center
+
+.book-container
+    background-color: #222
+    width: 90%
+    height: auto
+    padding: 20px
+    margin-bottom: 2rem
+    color: white
+    font-size: 1.6rem
+    font-style: normal
+    font-weight: 300
+    border-bottom: 2px $cigray solid
+
+    p
+        border-bottom: 1px dotted #999
+        padding-bottom: 9px
+        font-size: 1.4rem
+        line-height: 2rem
+
+    .book-description
+        line-height: 2.4rem
+    
+    a.book-website
+        font-size: 1.4rem
+        color: white
+        text-decoration: none
+        &:hover
+            color: $ciGreen
+
+    .bookBTNs
+        display: flex
+        justify-content: space-around
+        .editBTN
+            width: 40px
+            cursor: pointer
+            content: url("/assets/edit-white.svg")
+            &:hover
+                content: url("/assets/edit-hover.svg")
+        .deleteBTN
+            width: 40px
+            cursor: pointer
+            content: url("/assets/delete-red.svg")
+            &:hover
+                content: url("/assets/delete-hover.svg")
+
+#add-data
+    width: 80%
+    display: flex
+    justify-content: flex-end
+    margin-top: 30px
+    .addBTN
+        width: 40px
+        cursor: pointer
+        content: url("/assets/add_white.svg")
+        &:hover
+            content: url("/assets/add_hover.svg")
+
+#jsondata
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    width: 90%
+    margin-top: 4px
+    color: gray
+    font-size: 1.4rem
+
+#ausgabe
+    color: $ciGreen
+    font-size: 1.5rem
+    position: relative
+    margin-top: 4rem
+    width: 80%
+    text-align: center
+    font-style: normal
+    font-weight: 300
+
+
+nav
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+
+    .nav-slider
+        position: absolute
+        bottom: -.4rem
+        left: 0
+        width: 1.05rem
+        height: .2rem
+        background-color: $ciGreen
+        transform-origin: center left
+        
+        &.animation
+            transition: 500ms all
+
+    ul
+        margin: 0
+        padding: 0
+        width:  100%
+        display: flex
+        justify-content: center
+        align-items: center
+
+        li
+            list-style: none
+            display: flex
+            justify-content: center
+            align-items: center
+            flex-direction: row
+            margin: 0 2rem 0 0
+
+            &:last-child
+                margin: 0 0 0 0
+
+            a
+                color: white
+                font-size: 1.6rem
+                cursor: pointer
+                display: flex
+                justify-content: center
+                align-items: center
+                flex-direction: row
+                transition: 250ms all
+            
+                &:hover
+                    color: $ciGreen !important
+
+                img
+                    margin: 0 1rem 0 0
+                    width: 2rem
+            .inputFID
+                display: block
+                width: 60px
+                margin-left: 16px
+            
+.lastNavElm
+    color: white
+    font-size: 1.6rem
+
+.active
+    color: $ciGreen !important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

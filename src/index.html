@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Metadaten -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titel -->
+    <title>Tutorial Environment</title>
+
+    <!-- SASS Import -->
+    <link rel="stylesheet" href="./css/main.min.css">
+
+    <!-- Font Import (Google Font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Content aus dem Tutorial: START -->
+
+    <h1>Importieren, ändern, löschen und speicher von JSON-Dateien</h1>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a id="startBtn" class="active"><img src="./assets/start.svg" /> Start</a></li>
+            <li><a id="importBtn" class=""><img src="./assets/import.svg" /> Import</a></li>
+            <li><a id="exportBtn" class=""><img src="./assets/export.svg" /> Export</a></li>
+            <li><a id="partBtn" class=""><img src="./assets/parts.svg" /> Part of </a>
+            <input class="inputFID" type="number" value="1"/></li><li class="lastNavElm">ID</li>
+        </ul>
+        <div class="nav-slider"></div>
+    </nav>
+        
+    <div id="ausgabe">
+        <h2 class="title"></h2>
+        <p class="standorte">Button START klicken.</p>
+        <p class="mitglieder"></p>
+        <p class="records"></p>
+    </div>
+    <div id="add-data">
+        <div id="addBTN-ID" class="addBTN hidden"></div> 
+    </div>
+    <div id="jsondata">Dann Button IMPORT klicken.</div>
+
+    <!-- JS Import -->
+    <script src="./js/main.bundle.js"></script>
+    <!-- Content aus dem Tutorial: END -->
+</body>
+
+</html>
