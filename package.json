@@ -1,7 +1,7 @@
 {
     "name": "basic-webdev-ts",
     "version": "1.4.3",
-    "description": "Bei diesem Repository handelt es sich um meine \"Test-/Entwicklungsumgebung\" für alle meine YouTube Tutorials. Sie basiert auf Gulp, TypeScript/JS, ES6+ und SASS",
+    "description": "Bei diesem Repository handelt es sich um eine \"Test-/Entwicklungsumgebung\" für alle meine YouTube Tutorials. Sie basiert auf Gulp, TypeScript/JS, ES6+ und SASS",
     "main": "index.js",
     "scripts": {
         "dev": "gulp dev",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Lernstudio-Lpz-Projekt-Git/basic-webdev.git"
+        "url": "git+https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git"
     },
     "keywords": [
         "Gulp",
@@ -23,11 +23,11 @@
         "HTML"
     ],
     "author": "Steffen Balmer",
-    "license": "Future Training",
+    "license": "Free",
     "bugs": {
-        "url": "https://github.com/Lernstudio-Lpz-Projekt-Git/basic-webdev/issues"
+        "url": "https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git/issues"
     },
-    "homepage": "https://github.com/Lernstudio-Lpz-Projekt-Git/basic-webdev#readme",
+    "homepage": "https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git#readme",
     "devDependencies": {
         "autoprefixer": "^10.2.5",
         "babel-runtime": "^6.26.0",
