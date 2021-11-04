@@ -1,7 +1,7 @@
 /////////////////////////////// JSON: WRITE READ ///////////////////////////////
 //const { date } = require('faker/locale/zh_TW')
 //const { resolveTypeReferenceDirective } = require('typescript')
-////////////// JSON-Server installieren:
+////////////// JSON-Server installieren: ///////////////////////////////////////
 // Basis zum Speichen, Änderen und Importieren von JSON-Daten ist der JSON-Server
 // INSTALLTION: npm install -g json-server
 // Mit Terminal in das Verzeichnis 'Server' naviegieren
