@@ -1,4 +1,4 @@
-# IDE 2020 - JavaScript2TypeScript
+# IDE 11/2021 - JavaScript2TypeScript
 
 TypeScript hat sich über die letzten Jahre zu einer echten Alternative für JavaScript entwickelt. Das JavaScript für Backend-Entwickler punktet mit optionaler statischer Typisierung und einem schnellen intelligenten Compiler. Zusätzlich ist mit Interfaces und Modifiern echte objekt­orientierte Entwicklung möglich. Das alles prädestiniert es für den Einsatz in großen Projekten. Abgerundet wird es durch die Bereitstellung von Features aus zukünftigen JavaScript-Versionen, die größtenteils zu ECMAScript 3/5 transpiliert werden können und damit voll abwärtskompatibel zum JavaScript-Sprachstandard sind.
 
