@@ -4,11 +4,11 @@ TypeScript hat sich über die letzten Jahre zu einer echten Alternative für Jav
 
 Bei dem verwendeten Repository handelt es sich um meine "Test-/Entwicklungsumgebung für JavaScript und TypeScript". Sie basiert auf Gulp, TypeScript/JS, ES6+ und Sass. Folgend die verwendeten NODE und NPM Versionen unter MacOS X 10.15.7 und Windows 10:
 
-MAC X 10.15.7:
+## MAC X 10.15.7:
 NODE 14.18.1
 NPM 6.14.15
 
-WINDOWS 10
+## WINDOWS 10:
 NODE 12.22.7
 NPM 6.14.15
 
