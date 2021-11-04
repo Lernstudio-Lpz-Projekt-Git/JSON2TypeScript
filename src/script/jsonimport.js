@@ -1,6 +1,6 @@
 /////////////////////////////// JSON: WRITE READ ///////////////////////////////
-//const { date } = require('faker/locale/zh_TW')
-//const { resolveTypeReferenceDirective } = require('typescript')
+// NODE-Version Windows 10: 12.22.7 //// MAC OS X: 14.18.1
+// NPM-Version Windows & Mac OS X: 6.14.15
 ////////////// JSON-Server installieren: ///////////////////////////////////////
 // Basis zum Speichen, Änderen und Importieren von JSON-Daten ist der JSON-Server
 // INSTALLTION: npm install -g json-server
