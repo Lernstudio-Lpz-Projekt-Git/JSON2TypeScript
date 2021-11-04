@@ -24,7 +24,7 @@ Mit `npm run build:prod` kann ein Produktion Build erzeugt werden das keine Sour
 ## JSON-SERVER
 `npm install -g json-server` ist der Befehl, der den Json Sever systemweit installiert. Json-Server bietet die Funktionalität zum Einrichten eines REST-API-Servers mit minimalem Aufwand.
 
-Wechseln Sie in das verzeichnis, dass ihre .json-Datei enthält und geben Sie folgenden Befeht ein: `json-server --watch dateiname.json`. Mehr Informationen finden Sie hier [https://www.npmjs.com/package/json-server]
+Wechseln Sie in das Verzeichnis, dass ihre .json-Datei enthält (in diesem Projekt: 'server') und geben Sie folgenden Befeht ein: `json-server --watch books.json`. Mehr Informationen finden Sie hier [https://www.npmjs.com/package/json-server]
 
 ## Typescript
 
