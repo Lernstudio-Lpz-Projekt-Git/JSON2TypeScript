@@ -13,12 +13,18 @@ NODE 12.22.7
 NPM 6.14.15
 
 ## Befehle
+`npm install` ist der Befehl, der alle Packages installiert und alle Abhänigkeiten auflöst.
 
 `npm run dev` ist der Befehl, der für das Starten der Umgebung erforderlich ist, alles auf einmal baut und auf Änderungen wartet. Hierbei wird ein Liveserver inkl. Browser-Refresh gestartet.
 
 `npm run build` ist der Build-Befehl, hierbei wird alles gebaut und im `dist/` Verzeichnis hinterlegt. Es wird nicht auf Änderungen an Dateien gewartet.
 
 Mit `npm run build:prod` kann ein Produktion Build erzeugt werden das keine Sourcemaps besitzt.
+
+## JSON-SERVER
+`npm install -g json-server` ist der Befehl, der den Json Sever systemweit installiert. Json-Server bietet die Funktionalität zum Einrichten eines REST-API-Servers mit minimalem Aufwand.
+
+Wechseln Sie in das verzeichnis, dass ihre .json-Datei enthält und geben Sie folgenden Befeht ein: `json-server --watch dateiname.json`. Mehr Informationen finden Sie hier [https://www.npmjs.com/package/json-server]
 
 ## Typescript
 
