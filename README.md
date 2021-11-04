@@ -1,8 +1,16 @@
-# IDE 2020 - Tutorial Basic
+# IDE 2020 - JavaScript2TypeScript
 
 TypeScript hat sich über die letzten Jahre zu einer echten Alternative für JavaScript entwickelt. Das JavaScript für Backend-Entwickler punktet mit optionaler statischer Typisierung und einem schnellen intelligenten Compiler. Zusätzlich ist mit Interfaces und Modifiern echte objekt­orientierte Entwicklung möglich. Das alles prädestiniert es für den Einsatz in großen Projekten. Abgerundet wird es durch die Bereitstellung von Features aus zukünftigen JavaScript-Versionen, die größtenteils zu ECMAScript 3/5 transpiliert werden können und damit voll abwärtskompatibel zum JavaScript-Sprachstandard sind.
 
-Bei dem verwendeten Repository handelt es sich um meine "Test-/Entwicklungsumgebung für JavaScript und TypeScript". Sie basiert auf Gulp, TypeScript/JS, ES6+ und Sass.
+Bei dem verwendeten Repository handelt es sich um meine "Test-/Entwicklungsumgebung für JavaScript und TypeScript". Sie basiert auf Gulp, TypeScript/JS, ES6+ und Sass. Folgend die verwendeten NODE und NPM Versionen unter MacOS X 10.15.7 und Windows 10:
+
+MAC X 10.15.7:
+NODE 14.18.1
+NPM 6.14.15
+
+WINDOWS 10
+NODE 12.22.7
+NPM 6.14.15
 
 ## Befehle
 
