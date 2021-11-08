@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: install-gulp
 
     strategy:
       matrix:
-        node-version: [12.22.1]
+        node-version: [ 12.22.7 ]
     
     steps:
     - uses: actions/checkout@v2
