@@ -23,9 +23,10 @@
         "HTML"
     ],
     "author": "Steffen Balmer",
-    "license": "Free",
+    "license": "CC0",
     "bugs": {
-        "url": "https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git/issues"
+        "url": "https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git/issues",
+        "email": "steffen.balmer@futuretrainings.com"
     },
     "homepage": "https://github.com/Lernstudio-Lpz-Projekt-Git/JSON2TypeScript.git#readme",
     "devDependencies": {
